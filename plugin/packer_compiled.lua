@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/nikdenof/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["iron.nvim"] = {
+    loaded = true,
+    path = "/home/nikdenof/.local/share/nvim/site/pack/packer/start/iron.nvim",
+    url = "https://github.com/hkupty/iron.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/nikdenof/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -192,7 +197,7 @@ _G.packer_plugins = {
   ["vim-test"] = {
     loaded = true,
     path = "/home/nikdenof/.local/share/nvim/site/pack/packer/start/vim-test",
-    url = "https://github.com/vim-test/vim-test"
+    url = "https://github.com/vim-test/vim-testvim-test/vim-test"
   },
   vimtex = {
     loaded = true,

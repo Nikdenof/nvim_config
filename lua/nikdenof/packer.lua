@@ -10,18 +10,22 @@ return require('packer').startup(function(use)
   use 'lervag/vimtex'
   use 'ThePrimeagen/vim-be-good'
   use 'folke/tokyonight.nvim'
-  use 'vim-test/vim-testvim-test/vim-test'
+  use 'vim-test/vim-test'
+  use 'hkupty/iron.nvim'
 
+  -- Debugging
+  use {'puremourning/vimspector'}
+  -- Fuzzy finders
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.0',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use('theprimeagen/harpoon')
 
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
-  use('theprimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
 
